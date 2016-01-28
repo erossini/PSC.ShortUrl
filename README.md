@@ -1,6 +1,8 @@
 # PSC.ShortUrl
 Creating a URL shortener using ASP.NET WepAPI and MVC
 
+![PSC.FYI](https://github.com/erossini/PSC.ShortUrl/blob/master/Screenshot%20PSCFYI.PNG?raw=true)
+
 The impotant functionalities are:
 
 - you can create a many short link you want
