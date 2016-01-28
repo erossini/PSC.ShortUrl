@@ -1,0 +1,12 @@
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Entities\bin\Debug\PSC.Shorturl.Web.Entities.dll.config
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Entities\bin\Debug\PSC.Shorturl.Web.Entities.dll
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Entities\bin\Debug\PSC.Shorturl.Web.Entities.pdb
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Entities\bin\Debug\EntityFramework.dll
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Entities\bin\Debug\EntityFramework.xml
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Entities\obj\Debug\PSC.Shorturl.Web.Entities.dll
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Entities\obj\Debug\PSC.Shorturl.Web.Entities.pdb
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Entities\obj\Debug\PSC.Shorturl.Web.Entities.csprojResolveAssemblyReference.cache

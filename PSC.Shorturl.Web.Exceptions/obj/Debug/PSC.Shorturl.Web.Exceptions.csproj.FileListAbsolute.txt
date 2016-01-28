@@ -1,0 +1,5 @@
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Exceptions\bin\Debug\PSC.Shorturl.Web.Exceptions.dll
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Exceptions\bin\Debug\PSC.Shorturl.Web.Exceptions.pdb
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Exceptions\obj\Debug\PSC.Shorturl.Web.Exceptions.dll
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Exceptions\obj\Debug\PSC.Shorturl.Web.Exceptions.pdb
+C:\Projects\Web\PSC.Shorturl.Web\PSC.Shorturl.Web.Exceptions\obj\Debug\PSC.Shorturl.Web.Exceptions.csprojResolveAssemblyReference.cache
