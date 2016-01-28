@@ -1,7 +1,7 @@
 # PSC.ShortUrl
 Creating a URL shortener using ASP.NET WepAPI and MVC
 
-![PSC.FYI](https://github.com/erossini/PSC.ShortUrl/blob/master/Screenshot%20PSCFYI.PNG?raw=true)
+![PSC.FYI Home Page](https://github.com/erossini/PSC.ShortUrl/blob/master/Screenshot%20PSCFYI.PNG?raw=true)
 
 The impotant functionalities are:
 
@@ -20,5 +20,11 @@ The impotant functionalities are:
 You find in the post http://puresourcecode.com/dotnet/post/Creating-a-URL-shortener-using-ASPNET-WepAPI-and-MVC the explanation how to create it.
 
 A live solution is on http://psc.fyi
+
+## Statistics example
+![PSC.FYI Statistics page](https://github.com/erossini/PSC.ShortUrl/blob/master/Screenshot%20PSCFYI%20Statistics.PNG?raw=true)
+
+## Statistics PDF report
+![PSC.FYI Statistics page](https://github.com/erossini/PSC.ShortUrl/blob/master/Screenshot%20PSCFYI%20PDF%20Report.PNG)
 
 Happy coding!
