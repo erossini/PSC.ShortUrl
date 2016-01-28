@@ -6,9 +6,9 @@ Creating a URL shortener using ASP.NET WepAPI and MVC
 The impotant functionalities are:
 
 - you can create a many short link you want
-- the format of a short link is http://psc.fyi/<your name>
+- the format of a short link is http://psc.fyi/yourshortname
 - for each short url you have: 
-      - statistics http://psc.fyi/<your name>/stats 
+      - statistics http://psc.fyi/yourshortname/stats 
       - graphs 
       - visitor world map 
       - PDF export 
