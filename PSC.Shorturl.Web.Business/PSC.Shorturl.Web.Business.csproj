@@ -61,6 +61,20 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PSC.Shorturl.Web.Data\PSC.Shorturl.Web.Data.csproj">
+      <Project>{550a5ea5-f471-4eb6-8320-5cf2b6d3df22}</Project>
+      <Name>PSC.Shorturl.Web.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PSC.Shorturl.Web.Entities\PSC.Shorturl.Web.Entities.csproj">
+      <Project>{d2e479d8-6e51-4b56-89b9-cf51ec4980d3}</Project>
+      <Name>PSC.Shorturl.Web.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PSC.Shorturl.Web.Exceptions\PSC.Shorturl.Web.Exceptions.csproj">
+      <Project>{7d82bc25-a061-48d3-8849-422a5c727da0}</Project>
+      <Name>PSC.Shorturl.Web.Exceptions</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

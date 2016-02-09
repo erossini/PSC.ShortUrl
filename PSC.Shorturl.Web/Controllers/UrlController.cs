@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using PSC.Shorturl.Web.Business;
 using PSC.Shorturl.Web.Models;
+using PSC.Shorturl.Web.Entities;
 
 namespace PSC.Shorturl.Web.Controllers
 {
@@ -16,6 +17,13 @@ namespace PSC.Shorturl.Web.Controllers
         public UrlController(IUrlManager urlManager)
         {
             this._urlManager = urlManager;
+        }
+
+        public async Task<ActionResult> Click(string segment)
+        {
+            string referer = Request.UrlReferrer != null ? Request.UrlReferrer.ToString() : string.Empty;
+            Stat stat = await this._urlManager.Click(segment, referer, Request.UserHostAddress);
+            return this.RedirectPermanent(stat.ShortUrl.LongUrl);
         }
 
         [HttpGet]
@@ -29,7 +37,8 @@ namespace PSC.Shorturl.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                url.ShortURL = await this._urlManager.ShortenUrl(url.LongURL);
+                ShortUrl shortUrl = await this._urlManager.ShortenUrl(url.LongURL, Request.UserHostAddress, url.CustomSegment);
+                url.ShortURL = string.Format("{0}://{1}{2}{3}", Request.Url.Scheme, Request.Url.Authority, Url.Content("~"), shortUrl.Segment);
             }
             return View(url);
         }

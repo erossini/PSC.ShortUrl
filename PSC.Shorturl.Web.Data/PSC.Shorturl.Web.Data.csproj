@@ -53,6 +53,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\201602091224536_Initial.cs" />
+    <Compile Include="Migrations\201602091224536_Initial.Designer.cs">
+      <DependentUpon>201602091224536_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShorturlContext.cs" />
   </ItemGroup>
@@ -67,6 +72,11 @@
       <Project>{d2e479d8-6e51-4b56-89b9-cf51ec4980d3}</Project>
       <Name>PSC.Shorturl.Web.Entities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201602091224536_Initial.resx">
+      <DependentUpon>201602091224536_Initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

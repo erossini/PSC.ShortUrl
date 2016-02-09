@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PSC.Shorturl.Web.Exceptions
 {
-    public class Class1
+    public class ShorturlConflictException : Exception
     {
     }
 }

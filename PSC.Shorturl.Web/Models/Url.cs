@@ -12,5 +12,7 @@ namespace PSC.Shorturl.Web.Models
         public string LongURL { get; set; }
 
         public string ShortURL { get; set; }
+
+        public string CustomSegment { get; set; }
     }
 }

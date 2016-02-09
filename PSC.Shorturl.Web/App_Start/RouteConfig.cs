@@ -14,9 +14,15 @@ namespace PSC.Shorturl.Web
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                name: "Click",
+                url: "{segment}",
+                defaults: new { controller = "Url", action = "Click" }
+            );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Url", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
